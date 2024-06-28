@@ -11,7 +11,7 @@ import java.time.LocalDateTime
 @EntityListeners(AuditingEntityListener::class)
 abstract class BaseEntity {
     @CreatedDate
-    var createdDate: LocalDateTime? = null
+    var createdAt: LocalDateTime? = null
     @LastModifiedDate
-    var updatedDate: LocalDateTime? = null
+    var updatedAt: LocalDateTime? = null
 }

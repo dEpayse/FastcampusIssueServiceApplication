@@ -38,8 +38,8 @@ data class IssueResponse(
                 type = issue.type,
                 priority = issue.priority,
                 status = issue.status,
-                createdAt = issue.createdDate,
-                updatedAt = issue.updatedDate
+                createdAt = issue.createdAt,
+                updatedAt = issue.updatedAt
             )
         }
     }
